@@ -20,8 +20,8 @@ This repository contains a machine learning pipeline for the Bias Bounty competi
 ### Running the Pipeline
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/kartik1pandey/Bias-Bounty-2025.git
+   cd Bias-Bounty-2025
    ```
 2. Run the pipeline:
    ```bash
