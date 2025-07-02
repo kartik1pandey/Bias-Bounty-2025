@@ -1,0 +1,16 @@
+[project]
+name = "bias-bounty"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "shap",
+    "seaborn",
+    "fairlearn",
+    "xgboost",
+    "imbalanced-learn",
+    "scikit-learn",
+    "matplotlib",
+    "pandas"
+]
