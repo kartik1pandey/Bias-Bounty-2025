@@ -86,3 +86,7 @@ This repository contains a machine learning pipeline for the Bias Bounty competi
 
 ## Acknowledgments
 Inspired by reference notebooks on polynomial regression (bias-variance analysis) and XGBoost with cross-validation (robust preprocessing).
+
+## Video submission
+
+Vide link: https://drive.google.com/file/d/1ui3W17i-IRV_xJ6RwUIkL72wpsc-4wJw/view?usp=sharing
