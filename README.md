@@ -1,7 +1,7 @@
 # Bias Bounty Competition: Loan Approval Pipeline
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/11DWc24Y256EEKCxG9o0TQxB-Ykou_79U/view?usp=sharing" alt="Loan Approval Bias Pipeline" width="100%">
+  <img src="https://drive.google.com/uc?export=view&id=11DWc24Y256EEKCxG9o0TQxB-Ykou_79U" alt="Loan Approval Bias Pipeline" width="100%">
 </p>
 
 
