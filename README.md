@@ -1,5 +1,10 @@
 # Bias Bounty Competition: Loan Approval Pipeline
 
+<p align="center">
+  <img src="https://smartdev.com/wp-content/uploads/2025/03/5-4.png" alt="Loan Approval Bias Pipeline" width="100%">
+</p>
+
+
 ## Overview
 This repository contains a machine learning pipeline for the Bias Bounty competition, designed to predict loan approvals while identifying and mitigating biases in the `loan_access_dataset.csv`. The pipeline uses Logistic Regression and XGBoost with 5-fold cross-validation, achieving validation accuracies of 0.6284 (Logistic) and 0.6200 (XGBoost). It employs `fairlearn` for fairness auditing (e.g., Gender DPD: 0.4167, Non-binary recall: 0.3125), `ExponentiatedGradient` for bias mitigation, and visualizations (SHAP, bias-variance, fairness metrics) for interpretability. The code is production-ready with logging, error handling, and a detailed AI Risk Report.
 
