@@ -13,7 +13,7 @@ This repository contains a machine learning pipeline for the Bias Bounty competi
   ```
 
 ### Dataset
-- Place `loan_access_dataset.csv` and `test.csv` in `/kaggle/input/bias-bounty/` or adjust the file paths in `loan_model.py`.
+- Place `loan_access_dataset.csv` and `test.csv` in `/data/` or adjust the file paths in `loan_model.py`.
 
 ## Usage
 
@@ -28,7 +28,7 @@ This repository contains a machine learning pipeline for the Bias Bounty competi
    python loan_model.py
    ```
 3. Outputs:
-   - **Submission**: `submission_5fold_xgb_YYYY-MM-DD-HH-MM.csv` (predictions for `test.csv`).
+   - **Submission**: `submission.csv` (predictions for `test.csv`).
    - **Visualizations** (in `charts/`):
      - `approval_rates_gender.png`, `approval_rates_race.png`, `approval_rates_zip_code_group.png`: Approval rates with confidence intervals.
      - `shap_importance.png`: SHAP feature importance.
@@ -67,7 +67,7 @@ This repository contains a machine learning pipeline for the Bias Bounty competi
   - Redlined Zip_Code_Groups show lower approval rates, reflecting systemic bias.
 
 ## Debugging Tips
-- Verify dataset paths: Ensure `/kaggle/input/bias-bounty/` contains `loan_access_dataset.csv` and `test.csv`.
+- Verify dataset paths: Ensure `/data/` contains `loan_access_dataset.csv` and `test.csv`.
 - Check `sensitive_features['Gender']` categories: `sensitive_features['Gender'].value_counts()`.
 - Inspect encoded features: `X.columns` (e.g., `Gender_Female`, `Race_White`).
 - Confirm index alignment: `assert X_train_res.index.equals(sensitive_train_res.index)`.
